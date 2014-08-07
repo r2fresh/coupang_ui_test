@@ -1,0 +1,31 @@
+{
+  "name": "coupang_ui_test",
+  "version": "1.0.0",
+  "homepage": "https//r2fresh.github.com/coupang_ui_test",
+  "authors": [
+    "r2fresh <r2fresh78@gmail.com>"
+  ],
+  "description": "쿠팡의 ui 개발자 테스트",
+  "main": "/js/main.js",
+  "keywords": [
+    "coupang"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.2.0",
+    "jquery": "~2.1.1",
+    "mustache": "~0.8.2",
+    "backbone": "~1.1.2",
+    "underscore": "~1.6.0",
+    "requirejs": "~2.1.14"
+  }
+}
