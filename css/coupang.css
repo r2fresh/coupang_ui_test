@@ -9,3 +9,52 @@ body,div,dl,dt,dd,ul,ol,menu,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textar
 .container {
 	min-width : 820px;
 }
+
+.gnb {
+	width:820px;
+}
+
+.gnb menu {
+	width:544px;
+	height:39px;
+	/*background-color: #3ba4ed;*/
+	list-style: none;
+	border-top:1px solid #3ba4ed;
+	border-left:1px solid #3ba4ed;
+	border-right:1px solid #3ba4ed;
+}
+
+.gnb menu li {
+	float:left;
+	height:39px;
+	
+}
+
+.gnb menu li a{
+	display:block;
+	padding-top:8px;
+	/*width:108px;*/
+	height:39px;
+	text-align: center;
+	text-decoration: none
+}
+
+.gnb menu li a div{
+	text-align: center;
+	width:108px;
+	height:23px;
+	border-right:1px solid #3ba4ed;
+}
+
+.gnb menu li:last-child a div {
+	border-right:none
+}
+
+/*.gnb menu li:last-child a {
+	padding-top:13px;
+}*/
+
+
+
+
+
