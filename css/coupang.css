@@ -1,7 +1,7 @@
 body,div,dl,dt,dd,ul,ol,menu,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,th,td,p {
 	margin:0; 
-	padding:0; 
-	font-size:100%; 
+	padding:0;
+	font-size:12px;
 	font-family:'Dotum','돋움';
 }
 
@@ -10,18 +10,27 @@ body,div,dl,dt,dd,ul,ol,menu,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textar
 	min-width : 820px;
 }
 
+
+
 .gnb {
 	width:820px;
+	position: relative;
+	display: block;
+	margin: 0 auto 0;
 }
 
 .gnb menu {
+
+	font-size:14px;
+	font-weight:bold;
 	width:544px;
 	height:39px;
-	/*background-color: #3ba4ed;*/
+	background-color: #3ba4ed;
 	list-style: none;
 	border-top:1px solid #3ba4ed;
 	border-left:1px solid #3ba4ed;
 	border-right:1px solid #3ba4ed;
+	
 }
 
 .gnb menu li {
@@ -34,20 +43,29 @@ body,div,dl,dt,dd,ul,ol,menu,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textar
 	display:block;
 	padding-top:8px;
 	/*width:108px;*/
-	height:39px;
+	height:31px;
 	text-align: center;
 	text-decoration: none
 }
 
 .gnb menu li a div{
+	letter-spacing:2px;
 	text-align: center;
 	width:108px;
 	height:23px;
-	border-right:1px solid #3ba4ed;
+	border-right:1px solid #8bcaf4;
+	color:#FFFFFF;
 }
 
 .gnb menu li:last-child a div {
 	border-right:none
+}
+
+.contents {
+	width:820px;
+	position: relative;
+	display: block;
+	margin: 0 auto 0;
 }
 
 /*.gnb menu li:last-child a {
