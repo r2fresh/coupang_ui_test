@@ -1,0 +1,62 @@
+.layer {
+	width:820px;
+	margin: 0 auto 0;
+}
+
+.layer layer {
+	
+	
+}
+
+.change_btn {
+	float:right;
+	display:block;
+}
+
+.change_btn a{
+	width:120px;
+	display:block;
+	background-color: #91cefb;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	padding-top:7px;
+	padding-bottom:8px;
+}
+
+.change_btn a label {
+	margin-top:5px;
+}
+
+.childs {
+	width:820px;
+	height:738px;
+	display:inline-block;
+	background-image: url('../images/background.jpg');
+}
+
+
+
+.title1 {
+	float:left;
+	position:relative;
+	display:block;
+}
+
+.title2 {
+	float:left;
+	position:relative;
+	display:block;
+}
+
+.title3 {
+	float:left;
+	position:relative;
+	display:block;
+}
+
+.title4 {
+	float:left;
+	position:relative;
+	display:block;
+}
