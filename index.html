@@ -16,7 +16,7 @@ xhtml1-strict.dtd">
 	<div class="container">
 		<!-- layout change -->
 
-		<div class="layer">
+		<div class="layer" style="display:none;">
 			<layer>
 				<div class="change_btn">
 					<a href="javascript:;" class="change_btn">
@@ -54,37 +54,37 @@ xhtml1-strict.dtd">
 			<nav class="gnb">
 				<menu>
 					<li>
-						<a href="https://baas.io">
+						<a href="#">
 							<div>
 								<span>메뉴1</span>
 							</div>
 						</a>	
 					</li>
 					<li>
-						<a href="https://baas.io">
+						<a href="#">
 							<div>
 								<span>메뉴2</span>
 							</div>
 						</a>	
 					</li>
 					<li>
-						<a href="https://baas.io">
-							<div>
-								<span>메뉴2</span>
-							</div>
-						</a>	
-					</li>
-					<li>
-						<a href="https://baas.io">
+						<a href="#">
 							<div>
 								<span>메뉴3</span>
 							</div>
 						</a>	
 					</li>
 					<li>
-						<a href="https://baas.io">
+						<a href="#">
 							<div>
 								<span>메뉴4</span>
+							</div>
+						</a>	
+					</li>
+					<li>
+						<a href="#">
+							<div>
+								<span>메뉴5</span>
 							</div>
 						</a>	
 					</li>
@@ -92,42 +92,42 @@ xhtml1-strict.dtd">
 			</nav>
 			<!-- contents -->
 			<div class="contents">
-				<content>
-					<div class="menu1" style="color:#FFFFFF;">
-						<div style="float:left;">
+				<content class="displayNone">
+					<div class="menu1">
+						<div class="boxs">
 							<div>
-								<div style="float:left;width:160px;height:150px;margin-right:12px;background-color:#bbbbbb;margin-top:12px;text-align:center;">
-									<div style="margin-top:65px;">
+								<div class="small box">
+									<div>
 										<span>160*150</span>
 									</div>									
 								</div>
-								<div style="float:left;width:160px;height:150px;margin-right:12px;background-color:#bbbbbb;margin-top:12px;text-align:center;">
-									<div style="margin-top:65px;">
+								<div class="small box">
+									<div>
 										<span>160*150</span>
 									</div>
 								</div>
-								<div style="float:left;width:160px;height:150px;margin-right:12px;background-color:#bbbbbb;margin-top:12px;text-align:center;">
-									<div style="margin-top:65px;">
+								<div class="small box">
+									<div>
 										<span>160*150</span>
 									</div>
 								</div>
 							</div>
 							
 							<div>
-								<div style="float:left;width:332px;height:150px;margin-right:12px;background-color:#bbbbbb;margin-top:12px;text-align:center;">
-									<div style="margin-top:65px;">
+								<div class="wide box">
+									<div>
 										<span>332*150</span>
 									</div>
 								</div>
-								<div style="float:left;width:160px;height:150px;margin-right:12px;background-color:#bbbbbb;margin-top:12px;text-align:center;">
-									<div style="margin-top:65px;">
+								<div class="small box">
+									<div>
 										<span>160*150</span>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div style="float:left;width:304px;height:312px;background-color:#bbbbbb;margin-top:12px;text-align:center;">
-							<div style="margin-top:145px;">
+						<div class="big box">
+							<div>
 								<span>304*150</span>
 							</div>
 						</div>
@@ -135,188 +135,181 @@ xhtml1-strict.dtd">
 				</content>
 				
 				<!-- image gallery -->
-				<content style="display:none;">
-					<!-- original image -->
-					<div style="padding:10px;width:414px;">
-						<div style="width:356px;height:363px;display:block;background-color:#FFFF00;margin:20px auto 20px;">
-							dsfds
+				<content class="displayNone">
+					<div class="menu2">
+						<!-- original image -->
+						<div class="org">
+							<div class="orgImg">
+								dsfds
+							</div>
 						</div>
-					</div>
-					<div style="width:414px;position: relative;">
-						<a href="javascript:;" style="position:absolute;">prev</a>
-						<a href="javascript:;" style="position:absolute;right:-2px;">next</a>
-						
-						<div style="padding-left:100px;">
-							<div style="overflow:hidden;width:219px;position: relative;">
-								<div style="width:2900px;position: relative;">
-									<a href="javascript:;" style="display:block;width:64px;height:69px;float:left;margin-right:9px;background-color:#FFFF00;">1</a>
-									<a href="javascript:;" style="display:block;width:64px;height:69px;float:left;margin-right:9px;background-color:#FFFF00;">2</a>
-									<a href="javascript:;" style="display:block;width:64px;height:69px;float:left;margin-right:9px;background-color:#FFFF00;">3</a>
-									<a href="javascript:;" style="display:block;width:64px;height:69px;float:left;margin-right:9px;background-color:#FFFF00;">4</a>
-									<a href="javascript:;" style="display:block;width:64px;height:69px;float:left;margin-right:9px;background-color:#FFFF00;">5</a>
-									<a href="javascript:;" style="display:block;width:64px;height:69px;float:left;margin-right:9px;background-color:#FFFF00;">6</a>
-									<a href="javascript:;" style="display:block;width:64px;height:69px;float:left;margin-right:9px;background-color:#FFFF00;">7</a>
-									<a href="javascript:;" style="display:block;width:64px;height:69px;float:left;margin-right:9px;background-color:#FFFF00;">8</a>
+						<div class="controller">
+							<a href="javascript:;" class="prevBtn">prev</a>
+							<a href="javascript:;" class="nextBtn">next</a>
+							
+							<div class="container">
+								<div class="imgMask">
+									<div class="thumbnail">
+										<a href="#" class="thumb">1</a>
+										<a href="#" class="thumb">2</a>
+										<a href="#" class="thumb">3</a>
+										<a href="#" class="thumb">4</a>
+										<a href="#" class="thumb">5</a>
+										<a href="#" class="thumb">6</a>
+										<a href="#" class="thumb">7</a>
+										<a href="#" class="thumb">8</a>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</content>
 				<!-- banner -->
-				<content style="display:none;">
-					<div>
-						<div style="margin-top:20px;">
-							<a href="javascript:;" style="display:block;height:150px;">
+				<content class="displayNone">
+					<div class="menu3">
+						<div class="banner type1">
+							<a href="#">
 								<img src="images/coupang_banner_1.jpg">
-							</a>
+								<div class="cover displayNone">
+									<div class="detail">
+										<a href="#">자세히보기</a>
+									</div>
+									<div class="coupang_home">
+										<a href="#">쿠팡홈으로</a>
+									</div>
+								</div>
+							</a>		
 						</div>
-						<div  style="margin-top:20px;">
-							<a href="javascript:;" style="display:block;height:178px;">
+						<div class="banner type2">
+							<a href="#">
 								<img src="images/coupang_banner_2.jpg">
+								<div class="cover displayNone">
+									<div class="detail">
+										<a href="#">자세히보기</a>
+									</div>
+									<div class="coupang_home">
+										<a href="#">쿠팡홈으로</a>
+									</div>
+								</div>
 							</a>
 						</div>
 					</div>
 				</content>
 
-				<content style="display:none;">
-					<div style="border-bottom:1px solid #666666;font-size:20px;height:30px;padding-top:10px;margin-bottom:20px;">
-						<span>회원정보입력</span>
-					</div>
+				<content class="displayNone">
+					
+					<div class="menu4">
 
-					<div style="padding-left:20px;">
-						<div style="border-top:1px solid #666666;width:800px;">
-						
-							<ul style="float:left;">
-								<li style="list-style:none;">
-									<div style="float:left;border-right:1px solid #FF0000;border-bottom:1px solid #FF0000;width:131px;height:21px;padding-left:10px;padding-top:8px;"
-									>
-									<span>아이디</span>
+						<div class="title">
+							<span>회원정보입력</span>
+						</div>
+
+						<div class="signup">
+							
+							<ul class="leftform">
+								<li class="sign_id">
+									<div class="id_label">
+										<span>아이디</span>
 									</div>
-									<div style="float:left;border-right:1px solid #FF0000;border-bottom:1px solid #FF0000;padding:5px 28px 4px 9px">
-										<input type="text" style="width:107px;height:16px;"/>
-									</div>
-								</li>
-								<li style="list-style:none;">
-									<div style="float:left;border-right:1px solid #FF0000;border-bottom:1px solid #FF0000;width:131px;height:23px;padding-left:10px;padding-top:8px;"
-									>
-									<span>비밀번호</span>
-									</div>
-									<div style="float:left;border-right:1px solid #FF0000;border-bottom:1px solid #FF0000;padding:6px 28px 5px 9px">
-										<input type="text" style="width:107px;height:16px;"/>
+									<div class="id_form">
+										<input type="text"/>
 									</div>
 								</li>
-								<li style="list-style:none;">
-									<div style="float:left;border-right:1px solid #FF0000;border-bottom:1px solid #FF0000;width:131px;height:23px;padding-left:10px;padding-top:8px;"
-									>
-									<span>이름</span>
+								<li class="sign_pw">
+									<div class="pw_label">
+										<span>비밀번호</span>
 									</div>
-									<div style="float:left;border-right:1px solid #FF0000;border-bottom:1px solid #FF0000;padding:6px 28px 5px 9px">
-										<input type="text" style="width:107px;height:16px;"/>
+									<div class="pw_form">
+										<input type="text"/>
 									</div>
 								</li>
-								<li style="list-style:none;">
-									<div style="float:left;border-right:1px solid #FF0000;border-bottom:1px solid #FF0000;width:131px;height:23px;padding-left:10px;padding-top:8px;"
-									>
-									<span>성별</span>
+								<li class="sign_name">
+									<div class="name_label">
+										<span>이름</span>
 									</div>
-									<div style="float:left;border-right:1px solid #FF0000;border-bottom:1px solid #FF0000;width:136px;height:21px;
-									padding-left:12px;padding-top:10px">
-										<label style="margin-right:5px;">
-											<input type="radio" style="vertical-align: middle;"/>
-											<span style="vertical-align: middle;">남</span>
+									<div class="name_form">
+										<input type="text"/>
+									</div>
+								</li>
+								<li class="sign_sex">
+									<div class="sex_label">
+										<span>성별</span>
+									</div>
+									<div class="sex_form">
+										<label>
+											<input type="radio"/>
+											<span>남</span>
 										</label>
 										<label>
-											<input type="radio" style="vertical-align: middle;"/>
-											<span style="vertical-align: middle;">여</span>
+											<input type="radio"/>
+											<span>여</span>
 										</label>	
-										
 									</div>
 								</li>	
 							</ul>
 
-							<ul style="float:left;">
-								<li style="list-style:none;">
-									<div style="float:left;border-right:1px solid #FF0000;border-bottom:1px solid #FF0000;width:130px;height:21px;padding-left:10px;padding-top:8px;"
-									>
-									<span>이메일</span>
+							<ul class="rightform">
+								<li class="sign_email">
+									<div class="email_label">
+										<span>이메일</span>
 									</div>
-									<div style="float:left;width:356px;padding-top:5px;padding-bottom:4px;border-bottom:1px solid #FF0000;padding-left:10px;">
-										<input type="text" style="width:107px;height:16px;"/>
+									<div class="email_form">
+										<input type="text"/>
 										<span> @</span>
-										<input type="text" style="width:107px;height:16px;"/>
+										<input type="text"/>
 									</div>
 								</li>
-								<li style="list-style:none;">
-									<div style="float:left;border-right:1px solid #FF0000;border-bottom:1px solid #FF0000;width:130px;height:23px;padding-left:10px;padding-top:8px;"
-									>
-									<span>비밀번호</span>
+								<li class="sign_pw_cofirm">
+									<div class="pw_confirm_label">
+										<span>비밀번호 확인</span>
 									</div>
-									<div style="float:left;width:356px;padding-top:6px;padding-bottom:5px;border-bottom:1px solid #FF0000;padding-left:10px;">
-										<input type="text" style="height:16px;"/>
+									<div class="pw_confirm_form">
+										<input type="text"/>
 									</div>
 								</li>
-								<li style="list-style:none;">
-									<div style="float:left;border-right:1px solid #FF0000;border-bottom:1px solid #FF0000;width:130px;height:23px;padding-left:10px;padding-top:8px;"
-									>
-									<span>휴대폰번호</span>
+								<li class="sign_phone">
+									<div class="phone_label">
+										<span>휴대폰번호</span>
 									</div>
-									<div style="float:left;width:356px;padding-top:6px;padding-bottom:4px;border-bottom:1px solid #FF0000;padding-left:10px;">
-										<input type="text" style="width:51px;height:17px;"/>
+									<div class="phone_form">
+										<select>
+										    <option value="011">011</option>
+										    <option value="016">016</option>
+										    <option value="017">017</option>
+										    <option value="018">018</option>
+										</select>
 										-
-										<input type="text" style="width:50px;height:16px;"/>
+										<input type="text"/>
 										-
-										<input type="text" style="width:50px;height:16px;"/>
+										<input type="text"/>
 									</div>
 								</li>
-								<li style="list-style:none;">
-									<div style="float:left;border-right:1px solid #FF0000;border-bottom:1px solid #FF0000;width:130px;height:23px;padding-left:10px;padding-top:8px;"
-									>
-									<span>약관동의</span>
+								<li class="sign_agree">
+									<div class="agree_label">
+										<span>약관동의</span>
 									</div>
-									<div style="float:left;width:356px;border-bottom:1px solid #FF0000;height:23px;padding-top:8px;padding-left:12px;">
-										<label style="margin-right:5px;">
-											<input type="checkbox"  style="vertical-align: middle;"/>
-											<span  style="vertical-align: middle;">이용약관에 동의합니다.</span>
+									<div class="agree_form">
+										<label>
+											<input type="checkbox"/>
+											<span>이용약관에 동의합니다.</span>
 										</label>
-										<label style="margin-right:5px;">
-											<input type="checkbox"  style="vertical-align: middle;"/>
-											<span  style="vertical-align: middle;">
+										<label>
+											<input type="checkbox"/>
+											<span>
 											개인정보 취급방침에 동의합니다.
 											</span>
 										</label>
 									</div>
 								</li>	
 							</ul>
-							
-							<!-- <ul style="float:left;">
-								<li style="list-style:none;width:350px;">
-									<div style="float:left;border-right:1px solid #FF0000;border-bottom:1px solid #FF0000;">id</div>
-									<div style="border-right:1px solid #FF0000;border-bottom:1px solid #FF0000;">
-										<input type="text"/>
-									</div>
-								</li>
-								<li style="list-style:none;width:350px;">
-									<div style="float:left;border-right:1px solid #FF0000;border-bottom:1px solid #FF0000;">id</div>
-									<div style="border-right:1px solid #FF0000;border-bottom:1px solid #FF0000;">
-										<input type="text"/>
-									</div>
-								</li>
-								<li style="list-style:none;width:350px;">
-									<div style="float:left;border-right:1px solid #FF0000;">id</div>
-									<div style="border-right:1px solid #FF0000;border-bottom:1px solid #FF0000;">
-										<input type="text"/>
-									</div>
-								</li>
-								<li style="list-style:none;width:350px;">
-									<div style="float:left;border-right:1px solid #FF0000;">id</div>
-									<div style="border-right:1px solid #FF0000;border-bottom:1px solid #FF0000;">
-										<input type="text"/>
-									</div>
-								</li>	
-							</ul> -->
-						
+							<div class="signup_submit">
+								<a href="#">가입완료</a>
+							</div>
 						</div>
 					</div>
+				</content>
+				<content class="displayNone">
+					youtube
 				</content>
 			</div>
 		</div>

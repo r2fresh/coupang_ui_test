@@ -32,31 +32,31 @@
 	width:820px;
 	height:738px;
 	display:inline-block;
-	background-image: url('../images/background.jpg');
+	/*background-image: url('../images/background.jpg');*/
 }
 
 
 
 .title1 {
-	float:left;
+	float:right;
 	position:relative;
 	display:block;
 }
 
 .title2 {
-	float:left;
+	float:right;
 	position:relative;
 	display:block;
 }
 
 .title3 {
-	float:left;
+	float:right;
 	position:relative;
 	display:block;
 }
 
 .title4 {
-	float:left;
+	float:right;
 	position:relative;
 	display:block;
 }
